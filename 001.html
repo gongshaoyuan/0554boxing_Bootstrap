@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>淮南拳击训练_拳击培训基地 - 淮南市拳击协会【官方网站】</title>
+
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/g_pubuliu.css"/>
+
+
+</head>
+
+<body>
+
+
+<button class="btn">btn</button>
+
+<script src="lib/jquery/jquery-1.8.3.min.js"></script>
+
+<script type="text/javascript">
+
+
+
+
+        var oBtn = document.getElementById("btn");
+        var oPP = document.getElementById("pp");
+        oBtn.onclick = function() {
+            var xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = function() {
+                console.log(xhr.responseText);
+            }
+            xhr.open("get","text.txt",true);
+            xhr.send(null);
+        }
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

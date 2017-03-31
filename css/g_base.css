@@ -1,0 +1,227 @@
+@charset "UTF-8";
+/*css 初始化 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+fieldset, img,input,button { border:none; padding:0;margin:0;outline-style:none; }
+ul, ol, li { list-style:none; }
+input { padding-top:0; padding-bottom:0; font-family: "Microsoft YaHei","SimSun","宋体";}
+select, input { vertical-align:middle; }
+select, input, textarea { font-size:12px; margin:0; }
+textarea { resize:none; } /*防止拖动*/
+img {border:0;	vertical-align:middle; }  /*  去掉图片低测默认的3像素空白缝隙*/
+table { border-collapse:collapse; }
+body {
+    font:14px/150% '宋体',Microsoft YaHei,SimSun,Arial,Verdana,"\5b8b\4f53";
+    color:#353535;
+    background: url("../images/bg.jpg") repeat-x left top #000;
+    margin-top: 20px;
+}
+.clearfix:before,.clearfix:after{
+    content:"";
+    display:table;
+}
+.clearfix:after{clear:both;}
+.clearfix{
+    *zoom:1;/*IE/7/6*/
+}
+a{color:#353535; text-decoration:none; }
+a:hover{color:#d40e0e; text-decoration: none; }
+h1,h2,h3,h4,h5,h6{text-decoration:none;font-weight:normal;font-size:100%;}
+s,i,em{font-style:normal;text-decoration:none;}
+
+/* 鼠标手势 */
+.cur-p {cursor: pointer}
+
+/* 浮动 */
+.fl {float:left}
+.fr {float:right}
+
+/* 显示/隐藏 */
+.show {display: block !important}
+.hidden {display: none !important}
+.ov-h {overflow: hidden;zoom: 1}
+
+/* 块级元素 */
+.block { display: block; margin-left: auto; margin-right: auto; }
+.inblock { display: inline-block; }
+
+/* 定位 */
+.pos_r {position: relative}
+.pos_a {position: absolute}
+.cb{clear:both}
+.cl{clear:left}
+.cr{clear:right}
+.mlr_auto{margin-left:auto;margin-right:auto;}
+
+/* 分隔 */
+.hr {margin: 0; padding: 0; border: 0; color: #ccc; background-color: #ccc; height: 1px}
+.blank5{display:block;height:5px}
+.blank10{display:block;height:10px}
+.blank20{display:block;height:20px}
+.blank30{display:block;height:30px}
+
+/* 图像对齐方式 */
+.sup {vertical-align: text-top}
+.sub {vertical-align: text-bottom}
+
+/* 宽高 */
+.w{width: 990px;margin:0 auto;}
+.w100{width:100px}
+.w_1{width:100%}
+.w_2{width:50%}
+.w_3{width:30%}
+.h_1{height:100%}
+
+/* margin边距 */
+.m5{margin:5px}
+.m10{margin:10px}
+.m15{margin:15px}
+.m20{margin:20px}
+.m25{margin:25px}
+.m30{margin:30px}
+
+.mt5{margin-top:5px}
+.mt10{margin-top:10px}
+.mt15{margin-top:15px}
+.mt20{margin-top:20px}
+.mt25{margin-top:25px}
+.mt30{margin-top:30px}
+.mt40{margin-top:40px}
+.mt50{margin-top:50px}
+
+.mb5{margin-bottom:5px}
+.mb10{margin-bottom:10px}
+.mb15{margin-bottom:15px}
+.mb20{margin-bottom:20px}
+.mb25{margin-bottom:25px}
+.mb30{margin-bottom:30px}
+.mb40{margin-bottom:40px}
+.mb50{margin-bottom: 50px}
+
+.ml5{margin-left:5px}
+.ml10{margin-left:10px}
+.ml15{margin-left:15px}
+.ml20{margin-left:20px}
+.ml25{margin-left:25px}
+.ml30{margin-left:30px}
+.ml40{margin-left:40px}
+.ml50{margin-left:50px}
+
+.mr5{margin-right:5px}
+.mr10{margin-right:10px}
+.mr15{margin-right:15px}
+.mr20{margin-right:20px}
+.mr25{margin-right:25px}
+.mr30{margin-right:30px}
+.mr40{margin-right:40px}
+.mr50{margin-right:50px}
+
+/* add margin */
+
+/* padding边距 */
+.p5{padding:5px}
+.p8{padding:8px}
+.p10{padding:10px}
+.p15{padding:15px}
+.p20{padding:20px}
+.p25{padding:25px}
+.p30{padding:30px}
+
+.pt5{padding-top:5px}
+.pt8{padding-top:8px}
+.pt10{padding-top:10px}
+.pt15{padding-top:15px}
+.pt20{padding-top:20px}
+.pt25{padding-top:25px}
+.pt30{padding-top:30px}
+.pt40{padding-top:40px}
+.pt50{padding-top:50px}
+
+.pb5{padding-bottom:5px}
+.pb8{padding-bottom:8px}
+.pb10{padding-bottom:10px}
+.pb15{padding-bottom:15px}
+.pb20{padding-bottom:20px}
+.pb25{padding-bottom:25px}
+.pb30{padding-bottom:30px}
+.pb40{padding-bottom:40px}
+.pb50{padding-bottom:50px}
+
+.pl5{padding-left:5px}
+.pl8{padding-left:8px}
+.pl10{padding-left:10px}
+.pl15{padding-left:15px}
+.pl20{padding-left:20px}
+.pl25{padding-left:25px}
+.pl30{padding-left:30px}
+
+.pr5{padding-right:5px}
+.pr8{padding-right:8px}
+.pr10{padding-right:10px}
+.pr15{padding-right:15px}
+.pr20{padding-right:20px}
+.pr25{padding-right:25px}
+.pr30{padding-right:30px}
+
+/* add padding */
+
+/* 单行文本溢出文本显示省略号 */
+.ellipsis {display:block; overflow:hidden; white-space:nowrap; text-overflow:ellipsis}
+
+/* 文字排版 */
+.fontArial{font-family:'Arial'}
+.fontYahei {font-family: "Microsoft YaHei", "\u5fae\u8f6f\u96c5\u9ed1", STXihei, "\u534e\u6587\u7ec6\u9ed1"}
+.fontSimsun{font-family:'simsun'}
+.fb{font-weight:700}
+.fn {font-weight: normal}
+.t2{text-indent:2em}
+
+.tal {text-align:left}
+.tac {text-align:center}
+.tar {text-align:right}
+
+.lh150{line-height:1.5}
+.lh180{line-height:1.8}
+.lh200{line-height:2}
+.lh20{line-height:20px}
+.lh25{line-height:25px}
+.lh30{line-height:30px}
+
+/* 文字大小 */
+.f10{font-size: 10px}
+.f12{font-size: 12px}
+.f14{font-size: 14px}
+.f16{font-size: 16px}
+.f18{font-size: 18px}
+.f20{font-size: 20px}
+.f24{font-size: 24px}
+
+/* 字体颜色 */
+.col_red{color: #C81623}
+.col_while{color:#fff}
+.col_black{color:#000}
+.col_org{color:#d55f25}
+
+.col_333{color:#333}
+.col_666{color:#666}
+.col_ccc{color:#ccc}
+
+/* 背景色 */
+.bg_white { background-color: #fff}
+.bg_zhuti { background-color: #b30b18}
+.bg_black { background-color: #000}
+/* 边框 */
+.bor_ccc{border:1px solid #ccc}
+.bor_b_ccc{border-bottom:1px solid #ccc}
+
+
+
+
+
+
+
+
+
+
+
+
+
