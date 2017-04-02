@@ -268,19 +268,19 @@
 
     <!-- 协会图集 -->
 
-    <iframe src="001.html" id="iframepage" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="100%" onLoad="iFrameHeight()"></iframe>
+    <!-- <iframe src="001.html" id="iframepage" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="100%" onLoad="iFrameHeight()"></iframe> -->
 
     <script type="text/javascript" language="javascript">
-        function iFrameHeight() {
-            var ifm= document.getElementById("iframepage");
-            var subWeb = document.frames ? document.frames["iframepage"].document : ifm.contentDocument;
-            if(ifm != null && subWeb != null) {
-                ifm.height = subWeb.body.scrollHeight;
-            }
-        }
-        window.onresize = function(){
-            setTimeout('iFrameHeight()',2000)
-        }
+        // function iFrameHeight() {
+        //     var ifm= document.getElementById("iframepage");
+        //     var subWeb = document.frames ? document.frames["iframepage"].document : ifm.contentDocument;
+        //     if(ifm != null && subWeb != null) {
+        //         ifm.height = subWeb.body.scrollHeight;
+        //     }
+        // }
+        // window.onresize = function(){
+        //     setTimeout('iFrameHeight()',2000)
+        // }
     </script>
 
     <!-- /协会图集 -->
@@ -367,8 +367,7 @@
 <!-- /客服飘窗 -->
 
 
-<!--<script src="lib/jquery/jquery-1.11.1.min.js"></script>-->
-<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="lib/jquery/jquery-1.11.1.min.js"></script>
 <script src="lib/bootstrap/js/bootstrap.js"></script>
 <script src="lib/bootstrap/js/bootstrap-ie.js"></script>
 <script src="lib/jquery/jquery.lazyload.min.js"></script>

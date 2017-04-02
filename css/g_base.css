@@ -12,7 +12,7 @@ table { border-collapse:collapse; }
 body {
     font:14px/150% '宋体',Microsoft YaHei,SimSun,Arial,Verdana,"\5b8b\4f53";
     color:#353535;
-    background: url("../images/bg.jpg") repeat-x left top #000;
+    background: url("../img/bg.jpg") repeat-x left top #000;
     margin-top: 20px;
 }
 .clearfix:before,.clearfix:after{
