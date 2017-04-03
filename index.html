@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<!--[if lt IE 8]><script>window.location.href="error.html"</script><![endif]-->
+<!--[if lt IE 8]>
+<script>window.location.href="error.html"</script>
+<![endif]-->
 <html lang="zh">
 <head>
     <meta charset="UTF-8">
@@ -24,10 +26,8 @@
 
     <!--[if lte IE 8]>
     <div class="alert alert-warning">
-        <a href="#" class="close" data-dismiss="alert">
-            &times;
-        </a>
-        <strong>警告！</strong>亲爱的小伙伴，你的浏览器版本过低，可能部分功能无法使用。请更换‘其它浏览器’或‘使用手机访问’！
+        <a href="#" class="close" data-dismiss="alert">&times;</a> <strong>警告！</strong>
+        亲爱的小伙伴，你的浏览器版本过低，可能部分功能无法使用。请更换‘其它浏览器’或‘使用手机访问’！
     </div>
     <![endif]-->
 
@@ -42,126 +42,140 @@
     <link rel="stylesheet" type="text/css" href="css/pad.css" media="(max-width:981px) and (min-width:640px)">
     <link rel="stylesheet" type="text/css" href="css/mobile.css" media="(max-width:641px)">
 
-
-</head>
+    <!-- Global CSS for the page and tiles -->
+    <link rel="stylesheet" href="css/pubu_main.css"></head>
 
 <body>
 
-<!-- 头部 -->
-<div class="header">
-    <!-- 导航 -->
-    <nav class="header_nav navbar-default bg_zhuti">
-        <div id="container_w" class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="logo col-sm-11 col-md-10 col-lg-10">
+    <!-- 头部 -->
+    <div class="header">
+        <!-- 导航 -->
+        <nav class="header_nav navbar-default bg_zhuti">
+            <div id="container_w" class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="logo col-sm-11 col-md-10 col-lg-10">
 
-                <button type="button" class="navbar-toggle collapsed bg_white" data-toggle="collapse"
+                    <button type="button" class="navbar-toggle collapsed bg_white" data-toggle="collapse"
                         data-target="#nav_menu" aria-expanded="false">
-                    <span class="sr-only">切换导航</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
+                        <span class="sr-only">切换导航</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
 
-                <h1><a href="/" title="淮南市拳击协会" target="_blank">淮南市拳击协会</a></h1>
+                    <h1>
+                        <a href="/" title="淮南市拳击协会" target="_blank">淮南市拳击协会</a>
+                    </h1>
 
-            </div>
+                </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="nav_menu">
-                <ul class="nav">
-                    <li class="col-sm-3 col-md-2 col-lg-2"><i class="glyphicon glyphicon-chevron-down"></i><a href="/"
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="nav_menu">
+                    <ul class="nav">
+                        <li class="col-sm-3 col-md-2 col-lg-2"> <i class="glyphicon glyphicon-chevron-down"></i>
+                            <a href="/"
                                                                                                               target="_blank">首页</a>
-                    </li>
-                    <li class="col-sm-3 col-md-2 col-lg-2"><a href="/xhjianjie/index1.html" target="_blank">协会简介</a>
-                    </li>
-                    <li class="hidden-sm col-md-2 col-lg-2"><a href="/zhaosheng/index1.html" target="_blank">招生简章</a>
-                    </li>
-                    <li class="hidden-sm col-md-2 col-lg-2"><a href="/news/1.html" target="_blank">特色课程</a></li>
-                    <li class="col-sm-3 col-md-2 col-lg-2"><a href="/shipin/" target="_blank">视频报道</a></li>
-                    <li class="col-sm-3 col-md-2 col-lg-2"><a href="/jianghaoquan/" target="_blank">蒋浩泉专题</a></li>
-                    <li class="hidden-sm col-md-2 col-lg-2"><a href="/xhjianjie/index2.html" target="_blank">联系我们</a>
-                    </li>
-                </ul>
-            </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-    </nav><!-- /导航 -->
+                        </li>
+                        <li class="col-sm-3 col-md-2 col-lg-2">
+                            <a href="/xhjianjie/index1.html" target="_blank">协会简介</a>
+                        </li>
+                        <li class="hidden-sm col-md-2 col-lg-2">
+                            <a href="/zhaosheng/index1.html" target="_blank">招生简章</a>
+                        </li>
+                        <li class="hidden-sm col-md-2 col-lg-2">
+                            <a href="/news/1.html" target="_blank">特色课程</a>
+                        </li>
+                        <li class="col-sm-3 col-md-2 col-lg-2">
+                            <a href="/shipin/" target="_blank">视频报道</a>
+                        </li>
+                        <li class="col-sm-3 col-md-2 col-lg-2">
+                            <a href="/jianghaoquan/" target="_blank">蒋浩泉专题</a>
+                        </li>
+                        <li class="hidden-sm col-md-2 col-lg-2">
+                            <a href="/xhjianjie/index2.html" target="_blank">联系我们</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse --> </div>
+            <!-- /.container-fluid --> </nav>
+        <!-- /导航 -->
 
+        <!-- 响应式高度 -->
+        <div>
+            <p class="visible-xs-block" style="height: 15px;"></p>
+            <p class="visible-sm-block" style="height: 40px;"></p>
+            <p class="visible-md-block" style="height: 55px;"></p>
+            <p class="visible-lg-block" style="height: 75px;"></p>
+        </div>
+        <!-- /响应式高度 -->
+
+        <!-- 轮播图 -->
+        <section id="ad_carousel" class="carousel slide" data-ride="carousel">
+            <!-- 控制点的容器 -->
+            <ol class="carousel-indicators">
+                <li data-target="#ad_carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#ad_carousel" data-slide-to="1"></li>
+                <li data-target="#ad_carousel" data-slide-to="2"></li>
+            </ol>
+            <!-- 轮播项容器 -->
+            <div class="carousel-inner" role="listbox">
+                <!-- 每个轮播图到底大图是什么 小图是什么 -->
+                <div class="item active" data-lg-image="img/ban01_2000.jpg" data-sm-image="img/ban01.jpg"></div>
+                <div class="item" data-lg-image="img/ban02_2000.jpg" data-sm-image="img/ban02.jpg"></div>
+                <div class="item" data-lg-image="img/ban03_2000.jpg" data-sm-image="img/ban03.jpg"></div>
+            </div>
+            <!-- 上一页下一页的按钮 -->
+            <a class="left carousel-control" href="#ad_carousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">上一页</span>
+            </a>
+            <a class="right carousel-control" href="#ad_carousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">下一页</span>
+            </a>
+        </section>
+        <!-- 轮播图 --> </div>
+    <!-- /头部 -->
 
     <!-- 响应式高度 -->
     <div>
-        <p class="visible-xs-block" style="height: 15px;"></p>
-        <p class="visible-sm-block" style="height: 40px;"></p>
-        <p class="visible-md-block" style="height: 55px;"></p>
-        <p class="visible-lg-block" style="height: 75px;"></p>
-    </div><!-- /响应式高度 -->
+        <p class="visible-xs-block visible-sm-block" style="height: 10px;"></p>
+        <p class="visible-md-block visible-lg-block" style="height: 20px;"></p>
+    </div>
+    <!-- /响应式高度 -->
 
+    <!-- 主体 -->
+    <div class="man p15 container bg_white">
+        <section class="man_left hidden-xs hidden-sm col-md-7 col-lg-7">
 
-    <!-- 轮播图 -->
-    <section id="ad_carousel" class="carousel slide" data-ride="carousel">
-        <!-- 控制点的容器 -->
-        <ol class="carousel-indicators">
-            <li data-target="#ad_carousel" data-slide-to="0" class="active"></li>
-            <li data-target="#ad_carousel" data-slide-to="1"></li>
-            <li data-target="#ad_carousel" data-slide-to="2"></li>
-        </ol>
-        <!-- 轮播项容器 -->
-        <div class="carousel-inner" role="listbox">
-            <!-- 每个轮播图到底大图是什么 小图是什么 -->
-            <div class="item active" data-lg-image="img/ban01_2000.jpg" data-sm-image="img/ban01.jpg"></div>
-            <div class="item" data-lg-image="img/ban02_2000.jpg" data-sm-image="img/ban02.jpg"></div>
-            <div class="item" data-lg-image="img/ban03_2000.jpg" data-sm-image="img/ban03.jpg"></div>
-        </div>
-        <!-- 上一页下一页的按钮 -->
-        <a class="left carousel-control" href="#ad_carousel" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">上一页</span>
-        </a>
-        <a class="right carousel-control" href="#ad_carousel" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">下一页</span>
-        </a>
-    </section><!-- 轮播图 -->
-</div>
-<!-- /头部 -->
-
-
-<!-- 响应式高度 -->
-<div>
-    <p class="visible-xs-block visible-sm-block" style="height: 10px;"></p>
-    <p class="visible-md-block visible-lg-block" style="height: 20px;"></p>
-</div><!-- /响应式高度 -->
-
-
-<!-- 主体 -->
-<div class="man p15 container bg_white">
-    <section class="man_left hidden-xs hidden-sm col-md-7 col-lg-7">
-
-        <div class="video_report pb15">
-            <div class="man_title">
-                <h2><a href="">视频报道</a></h2>
-                <span><a href="">>>更多</a></span>
-                <i class="title_bottom"></i>
-            </div>
-            <div style="margin-top:7px;">
-                <embed src="https://player.youku.com/player.php/sid/XNjI3NDY4OTA0/v.swf" allowFullScreen="true"
+            <div class="video_report pb15">
+                <div class="man_title">
+                    <h2>
+                        <a href="">视频报道</a>
+                    </h2>
+                    <span>
+                        <a href="">>>更多</a>
+                    </span> <i class="title_bottom"></i>
+                </div>
+                <div style="margin-top:7px;">
+                    <embed src="https://player.youku.com/player.php/sid/XNjI3NDY4OTA0/v.swf" allowFullScreen="true"
                        quality="high" width="100%" height="100%" align="middle" allowScriptAccess="always"
                        type="application/x-shockwave-flash"></embed>
             </div>
             <div class="video_lis">
                 <ul>
                     <li>
-                        <i class="glyphicon glyphicon-play-circle"></i> 
+                        <i class="glyphicon glyphicon-play-circle"></i>
                         <a href="http://v.youku.com/v_show/id_XNTIzNDIzMTY0.html" rel="nofollow" target="_blank"
                             title="">淮南电视台新闻联播报道2012年12月</a>
                     </li>
                     <li>
-                        <i class="glyphicon glyphicon-play-circle"></i> 
+                        <i class="glyphicon glyphicon-play-circle"></i>
                         <a href="http://v.youku.com/v_show/id_XNjI3NDcxNjg0.html" rel="nofollow" target="_blank"
                             title="">淮南电视台新闻联播报道2013年6月</a>
                     </li>
                     <li>
-                        <i class="glyphicon glyphicon-play-circle"></i> 
+                        <i class="glyphicon glyphicon-play-circle"></i>
                         <a href="http://v.youku.com/v_show/id_XNjc3NzY1ODA0.html" rel="nofollow" target="_blank"
                             title="">总教练受邀在武术交流会上表演八极拳</a>
                     </li>
@@ -171,27 +185,43 @@
 
         <div class="coach pb10">
             <div class="man_title">
-                <h2><a href="">教练师资</a></h2>
-                <span><a href="">>>详细</a></span>
+                <h2>
+                    <a href="">教练师资</a>
+                </h2>
+                <span>
+                    <a href="">>>详细</a>
+                </span>
                 <i class="title_bottom"></i>
             </div>
             <div class="coach_lis">
                 <ul class="pt10">
                     <li>
-                        <div class="coach_lis_left"><a href="/jiaolian/index1.html" target=_blank><img
-                                src="img/index_jl01.jpg" width="100%" height="100%" alt="焦登放"></a></div>
+                        <div class="coach_lis_left">
+                            <a href="/jiaolian/index1.html" target=_blank>
+                                <img
+                                src="img/index_jl01.jpg" width="100%" height="100%" alt="焦登放"></a>
+                        </div>
                         <div class="coach_lis_right">
                             <h3>总教练 焦登放</h3>
-                            <p>八岁习武，在七十年代初拜世界著名武术大师、"一代拳王"蒋浩泉教授为师，是蒋教授最得意弟子并获得真传。擅长拳击、散打、摔跤、搏击、擒拿...<a href="/jiaolian/index1.html" class="fr" target="_blank">>>详细</a></p>
+                            <p>
+                                八岁习武，在七十年代初拜世界著名武术大师、"一代拳王"蒋浩泉教授为师，是蒋教授最得意弟子并获得真传。擅长拳击、散打、摔跤、搏击、擒拿...
+                                <a href="/jiaolian/index1.html" class="fr" target="_blank">>>详细</a>
+                            </p>
                         </div>
                         <div class="clearfix"></div>
                     </li>
                     <li>
-                        <div class="coach_lis_left"><a href="javascript:void(0)" target=_blank><img
-                                src="img/index_jl02.jpg" width="100%" height="100%" alt="教练"></a></div>
+                        <div class="coach_lis_left">
+                            <a href="javascript:void(0)" target=_blank>
+                                <img
+                                src="img/index_jl02.jpg" width="100%" height="100%" alt="教练"></a>
+                        </div>
                         <div class="coach_lis_right">
                             <h3>教练</h3>
-                            <p>擅长拳击、散打、摔跤、柔术、搏击、擒拿、格斗等综合武术项目...<a href="javascript:void(0)" class="fr" target="_blank">>>详细</a></p>
+                            <p>
+                                擅长拳击、散打、摔跤、柔术、搏击、擒拿、格斗等综合武术项目...
+                                <a href="javascript:void(0)" class="fr" target="_blank">>>详细</a>
+                            </p>
                         </div>
                         <div class="clearfix"></div>
                     </li>
@@ -205,39 +235,115 @@
     <section class="man_center col-sm-14 col-md-10 col-lg-10">
         <div class="news pb15">
             <div class="news_title clearfix">
-                <h2>协会动态 <span>SPOT</span></h2>
+                <h2>
+                    协会动态
+                    <span>SPOT</span>
+                </h2>
                 <a href="/news/" class="fr">>>更多</a>
             </div>
             <div class="news_lis">
                 <ul>
-                    <li><span class="hidden-xs">2015-09-09</span><span class="visible-xs-block">09-09</span><a href="/news/120.html" target="_blank">淮南师范学院教育实践基地-在我会挂牌成0000000000000000000</a></li>
-                    <li><span class="hidden-xs">2015-06-23</span><span class="visible-xs-block">06-23</span><a href="/plus/view.php?aid=107" target="_blank">淮南市拳击协会师范学院分会成立仪式</a></li>
-                    <li><span class="hidden-xs">2015-04-27</span><span class="visible-xs-block">04-27</span><a href="/news/16.html" target="_blank">淮南市拳击协会面向社会《招生简章》</a></li>
-                    <li><span class="hidden-xs">2015-01-19</span><span class="visible-xs-block">01-19</span><a href="/news/76.html" target="_blank">淮南市拳击协会招收了一批十多位幼儿学员</a></li>
-                    <li><span class="hidden-xs">2014-12-12</span><span class="visible-xs-block">12-12</span><a href="/plus/view.php?aid=57" target="_blank">焦会长接受今晚800栏目专访视频已经播出</a></li>
-                    <li><span class="hidden-xs">2014-11-06</span><span class="visible-xs-block">11-06</span><a href="/news/14.html" target="_blank">淮南市拳击协会师资力量</a></li>
-                    <li><span class="hidden-xs">2014-11-02</span><span class="visible-xs-block">11-02</span><a href="/news/28.html" target="_blank">焦登放会长-中西合并拳击动作命名登记</a></li>
-                    <li><span class="hidden-xs">2014-11-02</span><span class="visible-xs-block">11-02</span><a href="/news/29.html" target="_blank">焦登放会长受邀中央电视台专访栏目即将播</a></li>
-                    <li><span class="hidden-xs">2014-11-02</span><span class="visible-xs-block">11-02</span><a href="/news/27.html" target="_blank">协会合作单位圣锋保安公司即将挂牌</a></li>
+                    <li>
+                        <span class="hidden-xs">2015-09-09</span>
+                        <span class="visible-xs-block">09-09</span>
+                        <a href="/news/120.html" target="_blank">淮南师范学院教育实践基地-在我会挂牌成0000000000000000000</a>
+                    </li>
+                    <li>
+                        <span class="hidden-xs">2015-06-23</span>
+                        <span class="visible-xs-block">06-23</span>
+                        <a href="/plus/view.php?aid=107" target="_blank">淮南市拳击协会师范学院分会成立仪式</a>
+                    </li>
+                    <li>
+                        <span class="hidden-xs">2015-04-27</span>
+                        <span class="visible-xs-block">04-27</span>
+                        <a href="/news/16.html" target="_blank">淮南市拳击协会面向社会《招生简章》</a>
+                    </li>
+                    <li>
+                        <span class="hidden-xs">2015-01-19</span>
+                        <span class="visible-xs-block">01-19</span>
+                        <a href="/news/76.html" target="_blank">淮南市拳击协会招收了一批十多位幼儿学员</a>
+                    </li>
+                    <li>
+                        <span class="hidden-xs">2014-12-12</span>
+                        <span class="visible-xs-block">12-12</span>
+                        <a href="/plus/view.php?aid=57" target="_blank">焦会长接受今晚800栏目专访视频已经播出</a>
+                    </li>
+                    <li>
+                        <span class="hidden-xs">2014-11-06</span>
+                        <span class="visible-xs-block">11-06</span>
+                        <a href="/news/14.html" target="_blank">淮南市拳击协会师资力量</a>
+                    </li>
+                    <li>
+                        <span class="hidden-xs">2014-11-02</span>
+                        <span class="visible-xs-block">11-02</span>
+                        <a href="/news/28.html" target="_blank">焦登放会长-中西合并拳击动作命名登记</a>
+                    </li>
+                    <li>
+                        <span class="hidden-xs">2014-11-02</span>
+                        <span class="visible-xs-block">11-02</span>
+                        <a href="/news/29.html" target="_blank">焦登放会长受邀中央电视台专访栏目即将播</a>
+                    </li>
+                    <li>
+                        <span class="hidden-xs">2014-11-02</span>
+                        <span class="visible-xs-block">11-02</span>
+                        <a href="/news/27.html" target="_blank">协会合作单位圣锋保安公司即将挂牌</a>
+                    </li>
                 </ul>
             </div>
 
         </div>
         <div class="media">
             <div class="media_title clearfix">
-                <h2>媒体报道 <i class="glyphicon glyphicon-chevron-right"></i></h2>
-                <a href="/mtbd/" class="fr" target="_blank"><img src="img/safemore.jpg" /></a>
+                <h2>
+                    媒体报道
+                    <i class="glyphicon glyphicon-chevron-right"></i>
+                </h2>
+                <a href="/mtbd/" class="fr" target="_blank">
+                    <img src="img/safemore.jpg" />
+                </a>
             </div>
             <div class="media_lis">
                 <ul>
-                    <li><span class="hidden-xs">2016-04-01</span><span class="visible-xs-block">04-01</span><a href="/mtbd/195.html" rel="nofollow" target="_blank">《市场星报》 让拳击运动再次闪耀淮上0000000000000000000</a></li>
-                    <li><span class="hidden-xs">2016-03-18</span><span class="visible-xs-block">03-18</span><a href="/mtbd/190.html" rel="nofollow" target="_blank">《市场星报》 淮南拳击教学进校园</a></li>
-                    <li><span class="hidden-xs">2016-03-18</span><span class="visible-xs-block">03-18</span><a href="/mtbd/194.html" rel="nofollow" target="_blank">《淮河早报》 拳击训练进校园</a></li>
-                    <li><span class="hidden-xs">2016-01-15</span><span class="visible-xs-block">01-15</span><a href="/mtbd/192.html" rel="nofollow" target="_blank">《市场星报》 淮南市拳击协会2015年度事</a></li>
-                    <li><span class="hidden-xs">2015-11-30</span><span class="visible-xs-block">11-30</span><a href="/mtbd/188.html" rel="nofollow" target="_blank">《淮河早报》 IBF北京排名赛上淮南拳手斩</a></li>
-                    <li><span class="hidden-xs">2015-10-16</span><span class="visible-xs-block">10-16</span><a href="/mtbd/187.html" rel="nofollow" target="_blank">《市场星报》 IBF北京排名赛淮南拳手摘金</a></li>
-                    <li><span class="hidden-xs">2015-10-12</span><span class="visible-xs-block">10-12</span><a href="/mtbd/189.html" rel="nofollow" target="_blank">《淮河早报》 IBF职业拳击联赛淮南队员显</a></li>
-                    <li><span class="hidden-xs">2015-06-23</span><span class="visible-xs-block">06-23</span><a href="/plus/view.php?aid=104" rel="nofollow" target="_blank">《市师范学院官网》 淮南市拳击协会师范</a></li>
+                    <li>
+                        <span class="hidden-xs">2016-04-01</span>
+                        <span class="visible-xs-block">04-01</span>
+                        <a href="/mtbd/195.html" rel="nofollow" target="_blank">《市场星报》 让拳击运动再次闪耀淮上0000000000000000000</a>
+                    </li>
+                    <li>
+                        <span class="hidden-xs">2016-03-18</span>
+                        <span class="visible-xs-block">03-18</span>
+                        <a href="/mtbd/190.html" rel="nofollow" target="_blank">《市场星报》 淮南拳击教学进校园</a>
+                    </li>
+                    <li>
+                        <span class="hidden-xs">2016-03-18</span>
+                        <span class="visible-xs-block">03-18</span>
+                        <a href="/mtbd/194.html" rel="nofollow" target="_blank">《淮河早报》 拳击训练进校园</a>
+                    </li>
+                    <li>
+                        <span class="hidden-xs">2016-01-15</span>
+                        <span class="visible-xs-block">01-15</span>
+                        <a href="/mtbd/192.html" rel="nofollow" target="_blank">《市场星报》 淮南市拳击协会2015年度事</a>
+                    </li>
+                    <li>
+                        <span class="hidden-xs">2015-11-30</span>
+                        <span class="visible-xs-block">11-30</span>
+                        <a href="/mtbd/188.html" rel="nofollow" target="_blank">《淮河早报》 IBF北京排名赛上淮南拳手斩</a>
+                    </li>
+                    <li>
+                        <span class="hidden-xs">2015-10-16</span>
+                        <span class="visible-xs-block">10-16</span>
+                        <a href="/mtbd/187.html" rel="nofollow" target="_blank">《市场星报》 IBF北京排名赛淮南拳手摘金</a>
+                    </li>
+                    <li>
+                        <span class="hidden-xs">2015-10-12</span>
+                        <span class="visible-xs-block">10-12</span>
+                        <a href="/mtbd/189.html" rel="nofollow" target="_blank">《淮河早报》 IBF职业拳击联赛淮南队员显</a>
+                    </li>
+                    <li>
+                        <span class="hidden-xs">2015-06-23</span>
+                        <span class="visible-xs-block">06-23</span>
+                        <a href="/plus/view.php?aid=104" rel="nofollow" target="_blank">《市师范学院官网》 淮南市拳击协会师范</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -246,20 +352,43 @@
     <section class="man_right hidden-xs col-sm-10 col-md-7 col-lg-7">
         <div class="contact">
             <div class="man_title">
-                <h2><a href="http://wpa.qq.com/msgrd?V=1&Uin=1026102995&Site=&Menu=yes">联系我们</a></h2>
+                <h2>
+                    <a href="http://wpa.qq.com/msgrd?V=1&Uin=1026102995&Site=&Menu=yes">联系我们</a>
+                </h2>
                 <span class="f12">（周一至周日 8:00-21:00）</span>
                 <i class="title_bottom"></i>
             </div>
             <div class="contact_lis">
                 <ul>
-                    <li class="contact_lis_max pl8 pr8" style="margin-top:3px;"><img src="img/k1.gif" width="100%" height="100%" /></li>
-                    <li class="contact_lis_max pl8 pr8"><a href="http://wpa.qq.com/msgrd?V=1&Uin=1026102995&Site=&Menu=yes" target="_blank"><img src="img/k2.gif" width="100%" height="100%" /></a> </li>
-                    <li class="contact_lis_max pl8 pr8"><a href="mailto:1026102995@qq.cn" class="en"><img src="img/k3.gif" width="100%" height="100%" /></a></li>
-                    <li style="margin-top:3px;"><a href="http://wpa.qq.com/msgrd?V=1&Uin=1026102995&Site=&Menu=yes" target="_blank"><img src="img/k4.gif" width="100%" height="100%" /></a></li>
+                    <li class="contact_lis_max pl8 pr8" style="margin-top:3px;">
+                        <img src="img/k1.gif" width="100%" height="100%" />
+                    </li>
+                    <li class="contact_lis_max pl8 pr8">
+                        <a href="http://wpa.qq.com/msgrd?V=1&Uin=1026102995&Site=&Menu=yes" target="_blank">
+                            <img src="img/k2.gif" width="100%" height="100%" />
+                        </a>
+                    </li>
+                    <li class="contact_lis_max pl8 pr8">
+                        <a href="mailto:1026102995@qq.cn" class="en">
+                            <img src="img/k3.gif" width="100%" height="100%" />
+                        </a>
+                    </li>
+                    <li style="margin-top:3px;">
+                        <a href="http://wpa.qq.com/msgrd?V=1&Uin=1026102995&Site=&Menu=yes" target="_blank">
+                            <img src="img/k4.gif" width="100%" height="100%" />
+                        </a>
+                    </li>
                     <li style="font-weight:bold; margin-top:8px;">让每一位普通人像职业拳手一样能打！</li>
-                    <li><img src="img/home_44.jpg" width="100%" height="100%" /></li>
+                    <li>
+                        <img src="img/home_44.jpg" width="100%" height="100%" />
+                    </li>
 
-                    <li><p style="font-size:12px; line-height:20px;">　　淮南市拳击协会是二零一二年，经淮南市体育局、民政局批准的淮南市唯一的，具有独立法人资格的专业性拳击社团组织。具有拳击、散打、搏击等为一体的训练能力，能够培养拳手参加各种竞技体育赛事...<a href="/xhjianjie/index1.html" class="fr" target="_blank">>>详细</a></p></li>
+                    <li>
+                        <p style="font-size:12px; line-height:20px;">
+                            淮南市拳击协会是二零一二年，经淮南市体育局、民政局批准的淮南市唯一的，具有独立法人资格的专业性拳击社团组织。具有拳击、散打、搏击等为一体的训练能力，能够培养拳手参加各种竞技体育赛事...
+                            <a href="/xhjianjie/index1.html" class="fr" target="_blank">>>详细</a>
+                        </p>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -268,170 +397,340 @@
     <div class="man_fgx clearfix"></div>
     <!-- 广告条 -->
     <div class="adbanner mt15 mb10">
-        <img src="img/gkt_02.jpg" width="100%" height="100%" alt="招生专题">
-    </div><!-- /广告条 -->
-
+        <img src="img/gkt_02.jpg" width="100%" height="100%" alt="招生专题"></div>
+    <!-- /广告条 -->
 
     <!-- 协会图集 -->
+    <div class="man_title mt20">
+        <h2>
+            <a href="">协会图集</a>
+        </h2>
+        <i class="title_bottom"></i>
+    </div>
+    <!-- <div class="progress-bar"></div>
+-->
+<div id="container">
+    <div id="main" role="main">
+        <ul id="tiles">
+            <li>
+                <a href="" target="_blank">
+                    <img class="lazy" data-original="img/pubu3/xiehui/xh1.jpg" width="360" height="229" >
+                    <p>淮南市拳击协会成立大会</p>
+                </a>
+            </li>
+            <li>
+                <a href="" target="_blank">
+                    <img class="lazy" data-original="img/pubu3/xiehui/xh2.jpg" width="360" height="237" >
+                    <p>淮南市拳击协会成立大会后合影</p>
+                </a>
+            </li>
+            <li>
+                <a href="" target="_blank">
+                    <img class="lazy" data-original="img/pubu3/xiehui/xh3.jpg" width="360" height="237" >
+                    <p>焦会长参加安徽省武术、拳击协会换届会议</p>
+                </a>
+            </li>
+            <li>
+                <a href="" target="_blank">
+                    <img class="lazy" data-original="img/pubu3/xiehui/xh4.jpg" width="360" height="240" >
+                    <p>焦登放会长70年代初照片</p>
+                </a>
+            </li>
+            <li>
+                <a href="" target="_blank">
+                    <img class="lazy" data-original="img/pubu3/xiehui/xh5.jpg" width="360" height="198" >
+                    <p>淮南市拳击协会师范学院分会成立仪式</p>
+                </a>
+            </li>
+            <li>
+                <a href="" target="_blank">
+                    <img class="lazy" data-original="img/pubu3/xiehui/xh6.jpg" width="360" height="239" >
+                    <p>我会成为淮南师范学院指定《教育实践基地》</p>
+                </a>
+            </li>
+            <li>
+                <a href="" target="_blank">
+                    <img class="lazy" data-original="img/pubu3/xiehui/xh7.jpg" width="360" height="270" >
+                    <p>焦会长在师范学院拳击分会成立仪式上演练拳击</p>
+                </a>
+            </li>
+            <li>
+                <a href="" target="_blank">
+                    <img class="lazy" data-original="img/pubu3/xiehui/xh8.jpg" width="360" height="238" >
+                    <p>焦登放会长接受采访</p>
+                </a>
+            </li>
+            <li>
+                <a href="" target="_blank">
+                    <img class="lazy" data-original="img/pubu3/xiehui/xh9.jpg" width="360" height="315" >
+                    <p>焦登放会长70年代初照片</p>
+                </a>
+            </li>
+            <li>
+                <a href="" target="_blank">
+                    <img class="lazy" data-original="img/pubu3/xiehui/xh10.jpg" width="360" height="220" >
+                    <p>习近平主席看望慰问参加青奥会的IBF拳击运动</p>
+                </a>
+            </li>
+            <li>
+                <a href="" target="_blank">
+                    <img class="lazy" data-original="img/pubu3/xiehui/xh11.jpg" width="360" height="480" >
+                    <p>焦会长向IBF全球主席皮普尔斯介绍拳击新书</p>
+                </a>
+            </li>
+            <li>
+                <a href="" target="_blank">
+                    <img class="lazy" data-original="img/pubu3/xiehui/xh12.jpg" width="360" height="270" >
+                    <p>焦会长与前国家队拳击总教练王国均北京合影</p>
+                </a>
+            </li>
+            <li>
+                <a href="" target="_blank">
+                    <img class="lazy" data-original="img/pubu3/xiehui/xh13.jpg" width="360" height="511" >
+                    <p>焦会长与IBF(国际拳击联合会)高层领导合影</p>
+                </a>
+            </li>
+            <li>
+                <a href="" target="_blank">
+                    <img class="lazy" data-original="img/pubu3/xiehui/xh14.jpg" width="360" height="217" >
+                    <p>焦会长与我会参赛选手称重仪式后合影</p>
+                </a>
+            </li>
+            <li>
+                <a href="" target="_blank">
+                    <img class="lazy" data-original="img/pubu3/xiehui/xh15.jpg" width="360" height="244" >
+                    <p>焦会长学生获南方赛区全国拳击联赛第一名</p>
+                </a>
+            </li>
+            <li>
+                <a href="" target="_blank">
+                    <img class="lazy" data-original="img/pubu3/xiehui/xh16.jpg" width="360" height="270" >
+                    <p>我会拳手夏志林参加IBF职业拳赛TKO获胜</p>
+                </a>
+            </li>
+            <li>
+                <a href="" target="_blank">
+                    <img class="lazy" data-original="img/pubu3/xiehui/xh17.jpg" width="360" height="239" >
+                    <p>我会拳手代表在IBF职业拳击北京赛区合影</p>
+                </a>
+            </li>
+            <li>
+                <a href="" target="_blank">
+                    <img class="lazy" data-original="img/pubu3/xiehui/xh18.jpg" width="360" height="240" >
+                    <p>焦会长学生连续三届获全国第一</p>
+                </a>
+            </li>
+            <li>
+                <a href="" target="_blank">
+                    <img class="lazy" data-original="img/pubu3/xiehui/xh19.jpg" width="360" height="239" >
+                    <p>焦会长与著名体育评论家杜文杰合影</p>
+                </a>
+            </li>
+            <li>
+                <a href="" target="_blank">
+                    <img class="lazy" data-original="img/pubu3/xiehui/xh20.jpg" width="360" height="270" >
+                    <p>我会选手参加IBF职业拳击比赛-市电台跟踪报道</p>
+                </a>
+            </li>
+            <li>
+                <a href="" target="_blank">
+                    <img class="lazy" data-original="img/pubu3/xiehui/xh21.jpg" width="360" height="270" >
+                    <p>我会选手参加IBF职业拳击比赛-市电台跟踪报道</p>
+                </a>
+            </li>
+            <li>
+                <a href="" target="_blank">
+                    <img class="lazy" data-original="img/pubu3/xiehui/xh22.jpg" width="360" height="270" >
+                    <p>我会拳手比赛完胜归来后焦会长接受市电台采访</p>
+                </a>
+            </li>
+            <li>
+                <a href="" target="_blank">
+                    <img class="lazy" data-original="img/pubu3/xiehui/xh23.jpg" width="360" height="221" >
+                    <p>与著名体育评论家杜文杰老师合影</p>
+                </a>
+            </li>
+            <li>
+                <a href="" target="_blank">
+                    <img class="lazy" data-original="img/pubu3/xiehui/xh24.jpg" width="360" height="238" >
+                    <p>学生参加ibf世界拳王争霸赛工作证件</p>
+                </a>
+            </li>
 
-    <!-- <iframe src="001.html" id="iframepage" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="100%" onLoad="iFrameHeight()"></iframe> -->
+            <!-- End of grid blocks --> </ul>
+    </div>
+</div>
 
-    <script type="text/javascript" language="javascript">
-        // function iFrameHeight() {
-        //     var ifm= document.getElementById("iframepage");
-        //     var subWeb = document.frames ? document.frames["iframepage"].document : ifm.contentDocument;
-        //     if(ifm != null && subWeb != null) {
-        //         ifm.height = subWeb.body.scrollHeight;
-        //     }
-        // }
-        // window.onresize = function(){
-        //     setTimeout('iFrameHeight()',2000)
-        // }
-    </script>
-
-    <!-- /协会图集 -->
-
-
+<!-- /协会图集 -->
 
 </div>
 <!-- /主体 -->
 <div class="clearfix"></div>
 
-
 <!-- 底部 -->
 <div class="footer container bg_white clearfix">
 
-    <!-- 协会荣誉 -->
-    <section class="xh_honor mb20 clearfix">
-        <h3>协会荣誉<i></i></h3>
-        <div class="xh_honor_lis">
-            <ul>
-                <li class="col-xs-12 col-sm-8 col-md-6 col-lg-4"><img src="img/index_zz1.jpg" alt=""><p>中华体育总会团体会员</p></li>
-                <li class="col-xs-12 col-sm-8 col-md-6 col-lg-4"><img src="img/index_zz2.jpg" alt=""><p>安徽拳击训练示范基地</p></li>
-                <li class="col-xs-12 col-sm-8 col-md-6 col-lg-4"><img src="img/index_zz3.jpg" alt=""><p>淮南师范教育实践基地</p></li>
-                <li class="col-xs-12 col-sm-8 col-md-6 col-lg-4"><img src="img/index_zz4.jpg" alt=""><p>获先进协会称号</p></li>
-                <li class="col-xs-12 col-sm-8 col-md-6 col-lg-4"><img src="img/index_zz5.jpg" alt=""><p>获优秀单位称号</p></li>
-            </ul>
-        </div>
-    </section>
-    <!-- /协会荣誉 -->
+<!-- 协会荣誉 -->
+<section class="xh_honor mb20 clearfix">
+    <h3>
+        协会荣誉
+        <i></i>
+    </h3>
+    <div class="xh_honor_lis">
+        <ul>
+            <li class="col-xs-12 col-sm-8 col-md-6 col-lg-4">
+                <img src="img/index_zz1.jpg" alt="">
+                <p>中华体育总会团体会员单位</p>
+            </li>
+            <li class="col-xs-12 col-sm-8 col-md-6 col-lg-4">
+                <img src="img/index_zz2.jpg" alt="">
+                <p>淮南师范学院教育实践基地</p>
+            </li>
+            <li class="col-xs-12 col-sm-8 col-md-6 col-lg-4">
+                <img src="img/index_zz3.jpg" alt="">
+                <p>获社会组织评估等级3A级</p>
+            </li>
+            <li class="col-xs-12 col-sm-8 col-md-6 col-lg-4">
+                <img src="img/index_zz4.jpg" alt="">
+                <p>获先进协会称号</p>
+            </li>
+            <li class="col-xs-12 col-sm-8 col-md-6 col-lg-4">
+                <img src="img/index_zz5.jpg" alt="">
+                <p>获优秀单位称号</p>
+            </li>
+        </ul>
+    </div>
+</section>
+<!-- /协会荣誉 -->
 
+<!-- 支持合作 -->
+<section class="xh_cooperate mb40 clearfix">
+    <h3>支持合作单位</h3>
+    <div class="xh_cooperate_lis clearfix">
+        <ul>
+            <li class="col-xs-12 col-sm-8 col-md-6">
+                <img style="max-width: 230px; min-width: 130px;" src="img/index_zcdw_2.jpg" alt=""></li>
+            <li class="col-xs-12 col-sm-8 col-md-6">
+                <img style="max-width: 230px; min-width: 130px;" src="img/index_zcdw_1.jpg" alt=""></li>
+            <li class="col-xs-12 col-sm-8 col-md-4">
+                <img style="max-width: 160px; min-width: 120px;" src="img/index_zcdw_3.jpg" alt=""></li>
+            <li class="col-xs-12 col-sm-8 col-md-4">
+                <img style="max-width: 155px; min-width: 115px;" src="img/index_zcdw_4.jpg" alt=""></li>
+            <li class="col-xs-12 col-sm-8 col-md-4">
+                <img style="max-width: 138px; min-width: 108px;" src="img/index_zcdw_5.jpg" alt=""></li>
+        </ul>
+    </div>
+</section>
+<!-- /支持合作 -->
 
-    <!-- 支持合作 -->
-    <section class="xh_cooperate mb40 clearfix">
-        <h3>支持合作单位</h3>
-        <div class="xh_cooperate_lis clearfix">
-            <ul>
-                <li class="col-xs-12 col-sm-8 col-md-6"><img style="max-width: 230px; min-width: 130px;" src="img/index_zcdw_2.jpg" alt=""></li>
-                <li class="col-xs-12 col-sm-8 col-md-6"><img style="max-width: 230px; min-width: 130px;" src="img/index_zcdw_1.jpg" alt=""></li>
-                <li class="col-xs-12 col-sm-8 col-md-4"><img style="max-width: 160px; min-width: 120px;" src="img/index_zcdw_3.jpg" alt=""></li>
-                <li class="col-xs-12 col-sm-8 col-md-4"><img style="max-width: 155px; min-width: 115px;" src="img/index_zcdw_4.jpg" alt=""></li>
-                <li class="col-xs-12 col-sm-8 col-md-4"><img style="max-width: 138px; min-width: 108px;" src="img/index_zcdw_5.jpg" alt=""></li>
-            </ul>
-        </div>
-    </section>
-    <!-- /支持合作 -->
-
-    <!-- 版权声明 -->
-    <section class="xh_copyright clearfix">
-        <div class="xh_copyright_c">
-            <i class="hidden-xs hidden-sm hidden-md"><img src="img/biaoshi.gif" alt="" width="40" height="48" /></i>
-            <i class="visible-md-block"><img src="img/biaoshi.gif" alt="" width="40" height="48" /></i>
-            <i class="visible-sm-block"><img src="img/biaoshi.gif" alt="" width="40" height="48" /></i>
-            <p>Copyright,© 2016 淮南市拳击协会 版权所有</p>
-            <p>ICP备案号：皖ICP证030713号</p>
-            <p>联系电话：15256727938（总教练）18715680302（教练）</p>
-            <p>地址：淮南市田家庵区人民南路老体育场内，拳击馆</p>
-        </div>
-    </section>
-    <!-- /版权声明 -->
-
-
+<!-- 版权声明 -->
+<section class="xh_copyright clearfix">
+    <div class="xh_copyright_c">
+        <i class="hidden-xs hidden-sm hidden-md"><img src="img/biaoshi.gif" alt="" width="40" height="48" /></i> 
+        <i class="visible-md-block"><img src="img/biaoshi.gif" alt="" width="40" height="48" /></i> 
+        <i class="visible-sm-block">
+            <img src="img/biaoshi.gif" alt="" width="40" height="48" />
+        </i>
+        <p>Copyright,© 2016 淮南市拳击协会 版权所有</p>
+        <p>ICP备案号：皖ICP备17001937号-1</p>
+        <p>联系电话：15256727938（总教练）18715680302（教练）</p>
+        <p>地址：淮南市田家庵区人民南路老体育场内，拳击馆</p>
+    </div>
+</section>
+<!-- /版权声明 -->
 
 </div>
 <!-- /底部 -->
 
-
 <!-- 客服飘窗 -->
 <div class="qqbox hidden-xs" id="divQQbox">
-    <div class="qqkf_top"></div>
-    <div class="lebg" id="contentid">
+<div class="qqkf_top"></div>
+<div class="lebg" id="contentid">
 
-        <div class="onqq">
-            <a href="http://wpa.qq.com/msgrd?v=3&uin=1026102995&site=qq&menu=yes" target="_blank"><img border="0" SRC='http://wpa.qq.com/pa?p=2:1026102995:44' alt="qq"></a>
-        </div>
-        <div class="onqq">
-            <a href="http://wpa.qq.com/msgrd?v=3&uin=501914770&site=qq&menu=yes" target="_blank"><img border="0" SRC='http://wpa.qq.com/pa?p=2:501914770:44' alt="qq"></a>
-        </div>
-        <div class="onqq">
-            <a href="http://jq.qq.com/?_wv=1027&k=WH8KCJ" target="_blank"><img border="0" src="img/group.png" alt="qq"></a>
-        </div>
-
+    <div class="onqq">
+        <a href="http://wpa.qq.com/msgrd?v=3&uin=1026102995&site=qq&menu=yes" target="_blank">
+            <img border="0" SRC='http://wpa.qq.com/pa?p=2:1026102995:44' alt="qq"></a>
     </div>
-    <div class="qqkf_bottom"></div>
+    <div class="onqq">
+        <a href="http://wpa.qq.com/msgrd?v=3&uin=501914770&site=qq&menu=yes" target="_blank">
+            <img border="0" SRC='http://wpa.qq.com/pa?p=2:501914770:44' alt="qq"></a>
+    </div>
+    <div class="onqq">
+        <a href="http://jq.qq.com/?_wv=1027&k=WH8KCJ" target="_blank">
+            <img border="0" src="img/group.png" alt="qq"></a>
+    </div>
+
+</div>
+<div class="qqkf_bottom"></div>
 </div>
 <!-- /客服飘窗 -->
-
 
 <script src="lib/jquery/jquery-1.11.1.min.js"></script>
 <script src="lib/bootstrap/js/bootstrap.js"></script>
 <script src="lib/bootstrap/js/bootstrap-ie.js"></script>
+
 <script src="lib/jquery/jquery.lazyload.min.js"></script>
 <script>
-    $(function () {
-        $("img.lazy").lazyload();
+
+    $("img.lazy").lazyload({
+        effect : "fadeIn"
     });
+
 </script>
+
+<!-- Include the plug-in -->
+<script src="lib/pubuliu/jquery.wookmark.js"></script>
+
+<!-- Once the page is loaded, initalize the plug-in. -->
+<script type="text/javascript">
+  (function ($){
+    var handler = $('#tiles li');
+    handler.wookmark({
+        // Prepare layout options.
+        autoResize: true, // This will auto-update the layout when the browser window is resized.
+        container: $('#main'), // Optional, used for some extra CSS styling
+        offset: 12, // 设置上下左右边距
+        outerOffset: 0, // 首行上边距
+        itemWidth: 372 // 可设置左右边距
+    });
+    // Capture clicks on grid items.
+    handler.click(function(){
+      // Randomize the height of the clicked item.
+      var newHeight = $('img', this).height() + Math.round(Math.random() * 300 + 30);
+      $(this).css('height', newHeight+'px');
+      // Update the layout.
+      handler.wookmark();
+    });
+  })(jQuery);
+</script>
+
 <script src="js/g.js"></script>
 <script src="js/qqkf.js"></script>
 
 </body>
 </html>
 
+<!--<script>
+-->
+<!--$(function() {-->
+<!--$(window).on('resize', styleCss);-->
+<!--function styleCss() {-->
 
-<!--<script>-->
-    <!--$(function() {-->
-        <!--$(window).on('resize', styleCss);-->
-        <!--function styleCss() {-->
+<!--if( document.body.clientWidth >
+980)-->
+<!--{-->
+<!--document.getElementById('styleCss').href = '';-->
+<!--}else if ( document.body.clientWidth >
+640)-->
+<!--{-->
+<!--document.getElementById('styleCss').href = 'css/pad.css';-->
+<!--}else-->
+<!--{-->
+<!--document.getElementById('styleCss').href = 'css/mobile.css';-->
+<!--}-->
 
-            <!--if( document.body.clientWidth > 980)-->
-            <!--{-->
-                <!--document.getElementById('styleCss').href = '';-->
-            <!--}else if ( document.body.clientWidth > 640)-->
-            <!--{-->
-                <!--document.getElementById('styleCss').href = 'css/pad.css';-->
-            <!--}else-->
-            <!--{-->
-                <!--document.getElementById('styleCss').href = 'css/mobile.css';-->
-            <!--}-->
-
-        <!--}-->
-    <!--});-->
-    <!--$(window).trigger('resize');-->
-<!--</script>-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!--}-->
+<!--});-->
+<!--$(window).trigger('resize');-->
+<!--</script>
+-->
